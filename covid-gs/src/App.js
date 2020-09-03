@@ -90,7 +90,11 @@ const App = () => {
         </div>
         <div className="app__stats">
           
-          <img src="images/One.jpg"></img>
+          <a href="images/One.jpg"><img src="images/One-small.jpg"></img></a>
+          <a href="images/One.jpg"><img src="images/One-small.jpg"></img></a>
+          <a href="images/One.jpg"><img src="images/One-small.jpg"></img></a>
+          <a href="images/One.jpg"><img src="images/One-small.jpg"></img></a>
+          <a href="images/One.jpg"><img src="images/One-small.jpg"></img></a>
         
           
           </div>
