@@ -32,10 +32,25 @@ body {
 .app__stats {
   display: flex;
   justify-content: space-between;
+ 
+}
+
+.app__stats img {
+   transition: 1s;
+  padding: 15px;
+  width: 200px;
+
+}
+
+.app__stats img:hover {
+
+  filter: grayscale(100%);
+  transform :scale(1.1) ;
 }
 
 .app__left {
   flex: 0.9;
+
 }
 
 .app__information > h3 {
@@ -48,6 +63,12 @@ body {
 .app__information > h3:last-of-type {
   margin-top: 1rem;
 }
+
+
+
+
+
+
 
 @media (max-width: 990px) {
   .app {

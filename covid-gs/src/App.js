@@ -1,5 +1,7 @@
 import React, { useState, useEffect } from "react";
 import "./App.css";
+
+
 import {
   MenuItem,
   FormControl,
@@ -7,8 +9,9 @@ import {
  
 } from "@material-ui/core";
 
-import { sortData } from "./util";
+import { sortData, prettyPrintStat } from "./util";
 import Map from "./Map";
+
 import "leaflet/dist/leaflet.css";
 
 const App = () => {
@@ -85,6 +88,12 @@ const App = () => {
             </Select>
           </FormControl>
         </div>
+        <div className="app__stats">
+          
+          <img src="images/One.jpg"></img>
+        
+          
+          </div>
         
         <Map
           countries={mapCountries}
