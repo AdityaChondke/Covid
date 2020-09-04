@@ -6,7 +6,7 @@ import {
   MenuItem,
   FormControl,
   Select,
- 
+
 } from "@material-ui/core";
 
 import { sortData, prettyPrintStat } from "./util";
@@ -75,6 +75,7 @@ const App = () => {
       <div className="app__left">
         <div className="app__header">
           <h1>COVID DATATHON</h1>
+          
           <FormControl className="app__dropdown">
             <Select
               variant="outlined"
@@ -89,16 +90,53 @@ const App = () => {
           </FormControl>
         </div>
         <div className="app__stats">
+
+          <figure class="snip1585">
+            <img src="images/Two-small.jpeg"  />
+            <figcaption>
+              <h3>First<span>Graph</span></h3>
+            </figcaption>
+            <a href="images/Two.jpeg" target="_blank"></a>
+          </figure>
+
+          <figure class="snip1585">
+          <img src="images/Two-small.jpeg"  />
+          <figcaption>
+          <h3>Second<span>Graph</span></h3>
+          </figcaption>
+          <a href="images/Two.jpeg" target="_blank"></a>
+        </figure>
+
+          <figure class="snip1585"><img src="images/Two-small.jpeg"  />
+            <figcaption>
+            <h3>Third<span>Graph</span></h3>
+            </figcaption>
+            <a href="images/Two.jpeg" target="_blank"></a>
+          </figure>
+
+          <figure class="snip1585"><img src="images/Two-small.jpeg"  />
+            <figcaption>
+            <h3>Fouth<span>Graph</span></h3>
+            </figcaption>
+            <a href="images/Two.jpeg" target="_blank"></a>
+          </figure>
+
+          <figure class="snip1585"><img src="images/Two-small.jpeg"  />
+            <figcaption>
+            <h3>Fifth<span>Graph</span></h3>
+            </figcaption>
+            <a href="images/Two.jpeg" target="_blank"></a>
+          </figure>
           
-          <a href="images/One.jpg"><img src="images/One-small.jpg"></img></a>
-          <a href="images/One.jpg"><img src="images/One-small.jpg"></img></a>
-          <a href="images/One.jpg"><img src="images/One-small.jpg"></img></a>
-          <a href="images/One.jpg"><img src="images/One-small.jpg"></img></a>
-          <a href="images/One.jpg"><img src="images/One-small.jpg"></img></a>
+          <figure class="snip1585"><img src="images/j3.png"  />
+            <figcaption>
+            <h3>Analysis<span>Notebook</span></h3>
+            </figcaption>
+            <a href="images/Two.jpeg" target="_blank"></a>
+          </figure>
         
-          
-          </div>
-        
+        </div>
+
         <Map
           countries={mapCountries}
           casesType={casesType}
@@ -106,7 +144,7 @@ const App = () => {
           zoom={mapZoom}
         />
       </div>
-      
+
     </div>
   );
 };
