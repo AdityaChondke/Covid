@@ -114,19 +114,6 @@ const App = () => {
             <a href="images/Two.jpeg" target="_blank"></a>
           </figure>
 
-          <figure class="snip1585"><img src="images/Two-small.jpeg"  />
-            <figcaption>
-            <h3>Fouth<span>Graph</span></h3>
-            </figcaption>
-            <a href="images/Two.jpeg" target="_blank"></a>
-          </figure>
-
-          <figure class="snip1585"><img src="images/Two-small.jpeg"  />
-            <figcaption>
-            <h3>Fifth<span>Graph</span></h3>
-            </figcaption>
-            <a href="images/Two.jpeg" target="_blank"></a>
-          </figure>
           
           <figure class="snip1585"><img src="images/j3.png"  />
             <figcaption>
